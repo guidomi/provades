@@ -1,0 +1,67 @@
+body{
+  background: #a0e497;
+}
+.titulo1{
+  background:grey;
+}
+.um{
+  background:#5ec750;
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 40px;
+  color: #ece2d5;
+  font-weight: bolder;
+  font-style: italic;
+  background: #5ec750;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: oblique;
+  padding: 20px 0;
+}
+.titulodois{
+  color: white;
+  text-align:center;
+  font-family: inherit;
+  padding: 10px 0;
+}
+
+
+.itens{
+  color:black;
+  font-style: italic;
+  display:center;
+  text-align: center;   
+}
+.beneficios{
+  background-color: #5ec750;
+  font-size: 19px;
+  text-align: center;
+
+}
+.titulo3{
+background:#a0e497;
+padding: 20px;
+font-weight: bolder;
+font-style:italic;
+
+}
+ul{
+  display:inline;
+  width:50%;
+  vertical-align: top;
+  margin-right: 15;
+}
+
+.benificios2{
+  width: 70px;
+
+}
+.missao{
+  text-align: center;
+  color:black;
+  font-size:22px;
+  padding: 10px 0;
+}
+footer{
+  background: black
+}

@@ -1,0 +1,144 @@
+header{
+  background: #5ec750;
+  filter: drop-shadow(3px 3px 3px black);
+}
+body{
+  background: #a0e497;
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.titulocontato{
+  text-align: center;
+  font-weight: bolder;
+  font-size:25px;
+  font-style:italic;
+}
+nav{
+  position:absolute;
+  top:110px;
+  right: 0;
+}
+nav li{
+   display: inline;
+   margin:0 0 0 15px;
+   filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+nav a{
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+nav a:hover{
+  color: fuchsia;
+  text-decoration: underline;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px 0;
+  
+}
+form label, form legend{
+  display:block;
+  font-size: 20px;
+  margin: 0 0 10px
+
+}
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 30;
+  border-radius: 25px;
+  border-color:grey;
+  border-width:2px;
+  filter: drop-shadow(1px 1px 2px #CCCCCC);
+
+}
+.checkbox{
+  margin:20px 0;
+}
+.legenda{
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+}
+.checkbox{
+  margin: 20px 0;
+
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  border-radius: 5px;
+  border:none;
+  filter: drop-shadow(1px 1px 4px white);
+  background: limegreen;
+  color:white;
+  font-weight: bolder;
+  transition: 1s all;
+  cursor: pointer;
+}
+.enviar:hover{
+  background: #1bf752;
+  transform: scale(1.2);
+}
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background:#5ec750;
+  color: white;
+  font-weight: bold;
+}
+td,th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+footer{
+  text-align: center;
+  background:black   ;
+  padding: 40px 0;
+}
+.copyright{
+  color:#FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+
+}
+.Serviços{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.Serviços li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+    
+}
+.Serviços li:hover{
+border-color:#5ec750;
+}
+.Serviços li:active{
+  border-color: #088C19;
+}
+.Serviços li:hover h2{
+  font-size: 34px;
+}
+.produtos h2{
+  font-size: 30px;
+}
